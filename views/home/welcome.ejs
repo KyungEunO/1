@@ -1,0 +1,48 @@
+<!-- views/home/welcome.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../partials/head') %>
+    <style>
+      .mytitle {
+          color: white;
+          width: 600px;
+          height: 400px;
+          background-image: url('https://static.cdn.soomgo.com/upload/service/be5f3008-0899-41dc-87c4-fbf6c819f1be.png');
+          background-position: center;
+          background-size: cover;
+          border-radius: 10px;
+          text-align: center;
+          padding-top: 40px;
+          padding-left: 100px;
+      }
+      .wrap {
+            margin: 30 auto;
+            width: 1000px;
+      }
+  </style>
+  </head>
+  <body>
+    <%- include('../partials/nav') %>
+
+    <div class="container mb-3">
+
+      <div class="jumbotron">
+        <h1>TENNIS FRIEND CLUB</h1>
+        <P>테친클을 방문해 주셔서 감사합니다!</p>
+      </div>
+    </div>
+    <div class="mytitle">
+      <h1>SHELL WE TENNIS? </h1>
+  </div>
+  <div>
+      <p>
+          ID: <input type="text" />
+      </p>
+      <p>
+          PW: <input type="password" />
+      </p>
+  </div>
+  <button>Login</button>
+  </body>
+</html>
